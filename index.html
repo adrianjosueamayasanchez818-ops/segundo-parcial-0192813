@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Byoerr Travel</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
     <header class="navbar">
         <div class="logo">Byoerr</div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Destinations</a>
-            <a href="#">Packages</a>
-            <a href="#">Testimonial</a>
-            <a href="#">Contact Us</a>
+            <span class="nav-link">Home</span>
+            <span class="nav-link">Destinations</span>
+            <span class="nav-link">Packages</span>
+            <span class="nav-link">Testimonial</span>
+            <span class="nav-link">Contact Us</span>
         </nav>
     </header>
 
     <section class="hero">
         <div class="hero-content">
             <h1>Exploring Mesmerizing Underwater Wonders</h1>
-            <p>Discover the various breathtaking locations, swimming alongside deep-sea wonders through crystal-clear waters, snorkeling and with marine life.</p>
-            <a href="#" class="btn-primary">Book a List</a>
+            <p>Beneath the waves, a vibrant ecosystem thrives, revealing mesmerizing marine life. Sunlight dances through crystal-clear waters, illuminating coral reefs and colorful fish.</p>
+            <div class="btn-primary">Book a List</div>
         </div>
         <div class="hero-video-icon">
             <span class="play-btn">▶</span>
@@ -31,16 +32,119 @@
 
     <section class="about-section">
         <div class="about-images">
-            <div class="img-box large"></div>
-            <div class="img-box small"></div>
+            <div class="img-box large img-about-1"></div>
+            <div class="about-col-small">
+                <div class="img-box small img-about-2"></div>
+                <div class="img-box small img-about-3"></div>
+            </div>
         </div>
         <div class="about-text">
             <h2>About Us</h2>
             <p class="subtitle">Discover the various breathtaking locations</p>
             <p>Lorem ipsum dolor sit amet consectetur. In at amet semper velit elit nisi faucibus arcu. Bibendum nulla porttitor faucibus bibendum erat a vulputate sed. Quisque quis viverra turpis at erat vel ut metus congue. Sed senectus ullamcorper imperdiet sit fermentum. Fermentum faucibus proin hac sed condimentum euismod felis risus.</p>
-            <a href="#" class="link-more">Read More →</a>
+            <span class="link-more">Read More →</span>
         </div>
     </section>
-    
+
+    <section class="destinations-section">
+        <h2>Destinations</h2>
+        <p class="subtitle">Discover the various breathtaking locations</p>
+        <div class="destinations-grid">
+            <div class="destination-card card-1">
+                <div class="card-overlay">
+                    <h3>Bunaken Sea</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. In at amet semper</p>
+                    <div class="btn-small">View Details</div>
+                </div>
+            </div>
+            <div class="destination-card card-2"></div>
+            <div class="destination-card card-3"> </div>
+            <div class="destination-card card-4"></div>
+        </div>
+    </section>
+
+    <section class="packages-section">
+        <div class="packages-text">
+            <h2>Packages</h2>
+            <p class="subtitle">Choose your best package</p>
+            <p>Lorem ipsum dolor sit amet consectetur. In at amet semper velit elit nisi faucibus arcu. Bibendum nulla porttitor faucibus bibendum erat a vulputate sed.</p>
+            <ul class="packages-list">
+                <li><span>①</span> <strong>Golden Package</strong></li>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li><span>②</span> <strong>Silver Package</strong></li>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <li><span>③</span> <strong>Bronze Package</strong></li>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </ul>
+            <div class="btn-primary">View package details →</div>
+        </div>
+        <div class="packages-images">
+            <div class="img-box large img-pkg-1"></div>
+            <div class="about-col-small">
+                <div class="img-box small img-pkg-2"></div>
+                <div class="img-box small img-pkg-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section">
+        <h2>Testimonial</h2>
+        <p class="subtitle">What our clients say about us</p>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="client-info">
+                    <div class="avatar"></div>
+                    <div>
+                        <strong>Michael Yang</strong>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="client-info">
+                    <div class="avatar"></div>
+                    <div>
+                        <strong>Juri Song</strong>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="client-info">
+                    <div class="avatar"></div>
+                    <div>
+                        <strong>Anna Ross</strong>
+                        <div class="stars">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <h2>Contact us</h2>
+        <div class="contact-form">
+            <input type="text" value="Enter your email address" readonly>
+            <div class="btn-send">Send</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-col">
+            <h3>Byoerr</h3>
+            <p>Explore the ocean depths.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <span class="footer-link">Home</span>
+            <span class="footer-link">Destinations</span>
+        </div>
+        <div class="footer-col">
+            <h4>Resources</h4>
+            <span class="footer-link">Support</span>
+            <span class="footer-link">Privacy Policy</span>
+        </div>
+    </footer>
+
 </body>
 </html>
